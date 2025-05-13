@@ -7,14 +7,14 @@ This project involves the development of an AI-based board game titled **"Territ
 - **Minimax AI**: The AI uses the Minimax algorithm with Alpha-Beta pruning for optimal decision-making.
 - **Power-ups**: Several power-ups spawn randomly across the board, providing advantages like freezing opponents or gaining double points.
 - **Two Game Modes**: Human vs AI and AI vs AI modes.
-- **Turn-based Gameplay**: Players take turns to claim tiles on the grid-based board.
+- **Not Turn-based Gameplay**: Players don't take turns to claim tiles on the grid-based board, rather both start capturing tiles and at the end when timer ends the one with most tiles captured wins
 
 ## Installation
 1. Clone the repository:  
-   `git clone https://github.com/yourusername/territory-conquest.git`
+   `git clone https://github.com/AnasSaleem547/AiProjectTerritoryGame.git`
 
 2. Navigate to the project directory:  
-   `cd territory-conquest`
+   `cd AiProjectTerritoryGame`
 
 3. Install the required dependencies:  
    `pip install -r requirements.txt`
@@ -22,7 +22,7 @@ This project involves the development of an AI-based board game titled **"Territ
 ## How to Run
 1. Navigate to the project folder.
 2. Run the game by executing:  
-   `python game.py`
+   `python territory.py`
 
 ## Game Controls
 - **Player 1 (Human)**: Arrow keys to move.
@@ -30,10 +30,7 @@ This project involves the development of an AI-based board game titled **"Territ
 - **Power-ups**: Collected by landing on the tiles with power-ups.
 
 ## Project Structure
-- **game.py**: The main game logic and setup.
-- **ai.py**: Contains the Minimax algorithm and AI decision-making functions.
-- **board.py**: Defines the game board, tiles, and power-up mechanics.
-- **requirements.txt**: List of required Python libraries.
+- **territory.py**: The main game logic and setup.
 
 ## AI Performance
 The AI performed with a win rate of approximately 60% against human players, demonstrating the effectiveness of the Minimax algorithm in making optimal moves. The average decision-making time for the AI was 1.5 seconds, allowing for smooth gameplay without noticeable lag.
